@@ -10,7 +10,7 @@ const Link = ({ items }) => {
             href={el.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group py-4 px-6 min-w-full flex justify-between border border-white/70 rounded-lg opacity-85 hover:opacity-100 hover:-translate-y-0.5 overflow-hidden relative"
+            className="group py-4 px-6 min-w-full flex justify-between border border-white/70 rounded-lg opacity-85 hover:opacity-100 hover:-translate-y-0.5 hover:scale-x-102 overflow-hidden relative"
           >
             <div className="flex gap-4 items-center">
               {el.icon}
