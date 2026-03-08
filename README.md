@@ -20,6 +20,7 @@ or
     ```
     bun install
     ```
+    
 2. Start the development server:
 	```
 	npm run dev
