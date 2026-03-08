@@ -1,8 +1,7 @@
 import "@fontsource/inter";
 
 
-import Header from "./components/header";
-import Link from "./components/Link";
+import Header from "./components/Header";
 import Links from "./components/Links";
 import ImageBlock from "./components/ImageBlock";
 
