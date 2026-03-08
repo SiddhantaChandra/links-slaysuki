@@ -10,13 +10,18 @@ const Header = () => {
             className="w-full h-full object-contain rounded-full border-2 border-neutral-700"
             src={logo}
             alt="Slaysuki Logo"
-            loading="lazy"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
         </div>
         <h1 className="text-2xl font-medium tracking-tight uppercase mt-4">
           Slaysuki
         </h1>
         <p className="text-neutral-400">Swirls & Chase</p>
+        <p className="mt-2 max-w-sm text-center text-sm text-neutral-500">
+          Official links, socials, and latest updates.
+        </p>
       </header>
     </div>
   );

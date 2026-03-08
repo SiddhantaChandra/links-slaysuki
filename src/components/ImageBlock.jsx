@@ -6,8 +6,9 @@ const ImageBlock = () => {
       src={FightScene}
       alt="The best fight scene in pokemon"
       className="h-full w-full grayscale rounded-xl"
-      loading="lazy"
+      loading="eager"
       decoding="async"
+      fetchPriority="high"
     />
   );
 };
